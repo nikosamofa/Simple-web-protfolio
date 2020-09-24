@@ -1,0 +1,152 @@
+
+/* sets the default page sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+/* body default design */
+body{
+  background-color: gainsboro;
+ margin: 0;
+}
+/* formatting for main heading  */
+h1{
+  font-family: Snell Roundhand, cursive;
+  letter-spacing: 6px;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+/* formatting for sub heading in the header*/
+h3{
+  font-family: Courier, monospace;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+
+}
+/* formatting for all other sub-headings */
+h2{ text-align: center;
+    font-family: Courier, monospace;
+    padding: 30px;
+    font-size: 20px;
+
+
+}
+/* formatting for all parapgraphs */
+p{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+
+
+}
+/*formatting for the main display image*/
+.nikosimage{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  padding-bottom: 30px;
+  height: 600;
+}
+/* stlying for display art  */
+/* .roundimg img{
+  margin: auto;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  width: 100%;  
+  padding: 30px;
+  display: block;
+} */
+
+/* formatting for the header and footer */
+.header-and-footer{
+  background-color: black;
+  padding: 30px;
+  color: white; 
+  text-align: center;
+  
+}
+/* the main boddy formatting  */
+main{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 0 20 0 20;   
+}
+/* styling for the unordered and ordered lists */
+ul,ol{
+  margin-left:70px; 
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  
+  
+}
+/* styling for the embed map link from google maps */
+iframe {
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+/* styling for the horizantal lines  */
+hr{
+  margin: auto;
+  width: 70%;
+  border: 1px black solid;
+  margin-top: 60px;
+  margin-bottom: 30px;  
+
+}
+/* styling for the unordered list of section navigation buttons */
+nav ul{
+  list-style-type: none;
+  margin: auto;
+  
+}
+nav ul li{
+  margin: 10px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right:  20px;
+
+}
+
+nav a{
+  padding: 4px;
+  color: white;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-family: Courier, monospace;
+  /* border: 2px white solid; */
+  font-size: 15px;
+  text-align: center;
+  
+}
+nav a:link{
+  color:white;
+  }
+nav a:hover{
+  color: black;
+  background-color: white;
+  }
+ol a{
+  text-decoration: none;
+  line-height: 3px;
+
+}
+
+
+
